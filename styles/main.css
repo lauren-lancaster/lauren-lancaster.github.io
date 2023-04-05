@@ -62,8 +62,10 @@ footer {
 }
 
 .bodyText {
-  background:rgb(220, 239, 225);
+  background:hsla(135, 37%, 90%, 0.8);
   color:hsla(90, 9%, 4%, 1);
+  /*background:hsl(240deg 1.81% 29.33%);
+  color:hsl(90deg 86.74% 93%);*/
   border-radius: 5%;
   padding: 3%;
   margin: 1.5%;

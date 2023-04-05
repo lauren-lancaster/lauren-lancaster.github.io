@@ -132,5 +132,11 @@ footer {
   transition: all 0.4s;
 }
 
-/*I think dark grey rounded boxes could look quite nice for text?
-Either that or a specific kind of white */
+.htmlCssImages {
+  width: 90%;
+  border: 2px solid;
+  border-color: hsla(132, 23%, 40%, 0.9);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+

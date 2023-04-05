@@ -17,9 +17,10 @@ h2 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   font-family: math; 
   padding: 1%;
+  text-align: justify;
 }
 
 body {
@@ -56,6 +57,10 @@ footer {
   margin-top: 5vw;
 }
 
+ol {
+  padding: 5%;
+}
+
 #tableBlogLink {
   width: 100%;
   table-layout: fixed;
@@ -66,11 +71,13 @@ footer {
   color:hsla(90, 9%, 4%, 1);
   /*background:hsl(240deg 1.81% 29.33%);
   color:hsl(90deg 86.74% 93%);*/
-  border-radius: 5%;
+  border-radius: 10px;
   padding: 3%;
   margin: 1.5%;
   border: 2px solid;
   border-color: hsla(132, 23%, 40%, 0.9);
+  text-align: center;
+  
 }
 
 .mainBody {
@@ -79,10 +86,9 @@ footer {
   width: 60vw;
   /*height: 80vh;*/
   min-height: 600px;
-  border-radius: 2px;
+  border-radius: 4px;
   margin: auto;
   padding: 5%;
-  text-align: center;
 }
 
 
@@ -137,6 +143,11 @@ footer {
   border: 2px solid;
   border-color: hsla(132, 23%, 40%, 0.9);
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.listText{
+  font-size: 20px;
+  text-align: justify;
 }
 
 

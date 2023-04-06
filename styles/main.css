@@ -57,7 +57,10 @@ footer {
   font-size: 15px;
   font-family: initial;
   padding: 1%;
-  margin-top: 5vw;
+  /*position: absolute;*/
+  width: 100%;
+  /* margin-top: 5vw; */
+  bottom: 0;
 }
 
 ol {
@@ -80,14 +83,13 @@ ol {
   border: 2px solid;
   border-color: hsla(132, 23%, 40%, 0.9);
   text-align: center;
-  
 }
 
 .mainBody {
   /*background:hsla(28, 3%, 95%, 0.2);*/
   background: hsla(90, 40%, 81%, 0.5);
   width: 60vw;
-  /*height: 80vh;*/
+  /* height: 80vh; */
   min-height: 600px;
   border-radius: 4px;
   margin: auto;
@@ -152,6 +154,43 @@ ol {
   font-size: 20px;
   text-align: justify;
 }
+
+.aboutMeTable {
+  float: left;
+  width: 50%;
+}
+
+.halfPageImage {
+  float: left;
+  padding: 20px;
+  width: 40%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.aboutMeTableD {
+  padding: 20px;
+}
+
+
+.aboutMeImg {
+  width: 100%;
+  border: 2px solid;
+  border-color: hsl(0deg 0% 59.98% / 90%);
+  border-radius: 5px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.imgCaption {
+  font-size: 15px;
+}
+
+
+
 
 /* NOT WORKING?
 @media (max-width: 500px) {

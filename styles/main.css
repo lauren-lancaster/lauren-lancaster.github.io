@@ -57,19 +57,30 @@ footer {
   font-size: 15px;
   font-family: initial;
   padding: 1%;
-  /*position: absolute;*/
+  position: absolute;
   width: 100%;
   /* margin-top: 5vw; */
-  bottom: 0;
+  /* bottom: 0; */
 }
 
 ol {
   padding: 5%;
 }
 
+
 #tableBlogLink {
   width: 100%;
   table-layout: fixed;
+}
+
+.mainBody {
+  background: hsla(90, 40%, 81%, 0.5);
+  width: 80vw;
+  /* height: 80vh; */
+  min-height: 600px;
+  border-radius: 4px;
+  margin: auto;
+  padding: 5%;
 }
 
 .bodyText {
@@ -85,17 +96,41 @@ ol {
   text-align: center;
 }
 
-.mainBody {
-  /*background:hsla(28, 3%, 95%, 0.2);*/
-  background: hsla(90, 40%, 81%, 0.5);
-  width: 60vw;
-  /* height: 80vh; */
+.indexBody {
   min-height: 600px;
   border-radius: 4px;
   margin: auto;
   padding: 5%;
 }
 
+
+.indexBodyText {
+  background:hsla(135, 37%, 90%, 0.8);
+  color:hsla(90, 9%, 4%, 1);
+  border-radius: 10px;
+  padding: 3%;
+  margin: 1.5%;
+  border: 2px solid;
+  border-color: hsla(132, 23%, 40%, 0.9);
+  text-align: center;
+  width: 30%;
+  float: left;
+}
+
+.tableBloglinkCont {
+  width: 50%;
+  padding: 5%;
+  float: left;
+}
+
+@media (max-width: 700px) {
+  .indexBodyText, .tableBloglinkCont{
+    table-layout: fixed;
+    width: 70%;
+    float: none;
+  }
+  
+}
 
 .tableBlogLinkD {
   /*border: 1px solid;*/
@@ -118,11 +153,37 @@ ol {
   color: whitesmoke;
 }
 
+.btnIndexLink {
+  background: hsla(132, 23%, 40%, 0.9);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  width: 20vw;
+  height: 15vh;
+  border-radius: 40px;
+  border: 2px solid;
+  border-color: hsla(133, 38%, 21%, 0.2);
+  padding: 10px;
+  font-family: initial;
+  font-size: 5vmin;
+  color: whitesmoke;
+}
+
 .btnBlogLink:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   background: hsla(133, 59%, 60%, 1);
   cursor: pointer;
   transition: all 0.4s;
+  width: 103%;
+  height: 103%;
+}
+
+.btnIndexLink:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.64), 0 17px 50px 0 rgba(0,0,0,0.59);
+  background: hsla(133, 59%, 60%, 1);
+  cursor: pointer;
+  transition: all 0.4s;
+  width: 21vw;
+  height: 16vh;
+  font-size: 6vmin;
 }
 
 .navBtn {

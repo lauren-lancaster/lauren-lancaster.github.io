@@ -7,17 +7,17 @@ h1 {
   min-height:10vh;
   padding: 0.5em;
   font-family: fantasy;
-  font-size: 50px;
+  font-size: 3em;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 1.9em;
   font-family: initial;
   padding: 2%;
 }
 
 p {
-  font-size: 18px;
+  font-size: 1.2em;
   font-family: math; 
   padding: 1%;
   text-align: justify;
@@ -41,8 +41,6 @@ nav {
   color: whitesmoke;
   height: 40px;
   /* height: 6vh; */
-  font-size: 150%;
-  font-family: initial;
   padding: 0.5%;
   top: 0;
   margin: 0;
@@ -54,7 +52,7 @@ footer {
   color: lightgrey;
   min-height: 40px;
   height: 8vh;
-  font-size: 15px;
+  font-size: 1em;
   font-family: initial;
   padding: 1%;
   position: absolute;
@@ -153,7 +151,7 @@ ol {
   border-color: hsla(133, 38%, 21%, 0.2);
   padding: 10px;
   font-family: initial;
-  font-size: 5vmin;
+  font-size: 1.5em;
   color: whitesmoke;
 }
 
@@ -167,7 +165,7 @@ ol {
   border-color: hsla(133, 38%, 21%, 0.2);
   padding: 10px;
   font-family: initial;
-  font-size: 5vmin;
+  font-size: 1.5em;
   color: whitesmoke;
 }
 
@@ -178,6 +176,7 @@ ol {
   transition: all 0.4s;
   width: 103%;
   height: 103%;
+  font-size: 1.6em;
 }
 
 .btnIndexLink:hover {
@@ -187,7 +186,7 @@ ol {
   transition: all 0.4s;
   width: 21vw;
   height: 16vh;
-  font-size: 6vmin;
+  font-size: 1.6em;
 }
 
 .navBtn {
@@ -195,7 +194,7 @@ ol {
   color: whitesmoke;
   border: none;
   padding: 0.5% 1%;
-  /*font-size: 4vh;*/
+  font-size: 1em;
   font-family: initial;
   display: inline-block;
   cursor: pointer;
@@ -216,7 +215,7 @@ ol {
 }
 
 .listText {
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: justify;
 }
 
@@ -251,7 +250,7 @@ ol {
 }
 
 .imgCaption {
-  font-size: 15px;
+  font-size: 1em;
 }
 
 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>html-css</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <nav>
+      <button class="navBtn" type="button" onclick="window.location.href='../index.html'">Home</button>
+      <button class="navBtn" type="button" onclick="window.location.href='../core.html'">Core</button>
+      <button class="navBtn" type="button" onclick="window.location.href='../tech.html'">Tech</button>
+    </nav>
+    <div class="mainBody">
+      <div class="bodyText">
+        <h2>JavaScript Fundamentals</h2>
+        <ol>
+          <li class="listText">Give an analogy to describe JavaScript and its relationship to HTML and CSS.</li>
+          <p>A previous analogy I used was having HTML being the structure and elements of a house and CSS being the design. In this analogy, Javascript would be giving your house electricity and running water. 
+          </p>
+          <li class="listText">Explain control flow and loops using an example process from everyday life, for example, 'waking up' or 'brushing your teeth' (but not those).</li>
+          <p>Control flow is the order of steps to be executed. In this example we’ll talk about making toast. These are the steps you need to execute in order of first to last.</p>
+            <ol class="indentedOl">
+              <li>Bread out of fridge</li>
+              <li>Put one slice in the toaster</li>
+              <li>Turn toaster on</li>
+              <li>Wait until toast pops</li>
+              <li>Put toast on plate</li>
+              <li>Peanut butter out of cupboard</li>
+              <li>Scoop out peanut butter with a knife</li>
+              <li>Spread peanut butter onto toast</li>
+            </ol>
+          <p>A loop would be repeating steps 7-8 until the toast is fully covered in peanut butter. A loop requires a start condition, instructions to fill out while that start condition is applicable, and an end condition that breaks the loop. When you are making toast you will check to see if the surface of your toast is fully covered in peanut butter. Is it not covered? Then repeat steps 7-8 and check again.  When the toast has sufficient peanut butter the loop will end.</p>
+          <li class="listText">Describe what the DOM is and an example of how you might interact with it.</li>
+          <p>The DOM (document object model) is what creates an interface for HTML and CSS to interact with other languages, such as Javascript. It represents everything in a web document as objects knows as ‘nodes’. Javascript is able to interact with the DOM to change, create, update and delete these nodes in order to make a web document more dynamic.</p>
+          <p>You can interact with the DOM using devTools. There are five methods of interacting with the objects in the DOM.</p>
+            <ul class="indentedUl">
+            <li>getElementByID()</li>
+            <li>getElementByClassName()</li>
+            <li>getElementByTagName()</li>
+            <li>querySelector()</li>
+            <li>querySelectorAll()</li>
+            </ul> <p></p>
+          <li class="listText">Explain the difference between accessing data from arrays and objects.</li>
+          <p>Arrays use numbers to access elements, and objects use names to access data. For example if I had a list containing ‘apple, banana, pear’ and I stored that in an array, I would be able to access each individual fruit by calling it from it’s position in the list. Apple, being first, is at position 0, banana is at position 1, and pear is at position 2. To access the apple, I would call it using ‘array[0]’. </p>
+          <p>An object can be more specific about the data it stores by keeping properties. The properties are information stored within the object. To elaborate on a fruit themed example; the fruit type is an apple, the colour is red and the taste is sweet. If I wanted to find out a specific property of the fruit (being the object), I could call it using fruit.colour or fruit[‘colour’] to find out that it is red.</p>
+          <li class="listText">Explain what functions are and why they are helpful.</li>
+          <p>A function is a block of code used for performing a particular task. They are reusable and can be executed throughout your code whenever they are called. This means if you have a set of instructions you want to repeat, you only have to write out the instructions once, rather than every time they’re needed.</p>
+        </ol>
+      </div>
+    </div>
+  </body>
+  <footer>
+      Hello from the footer!
+  </footer>
+</html>

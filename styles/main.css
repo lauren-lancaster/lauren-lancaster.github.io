@@ -217,6 +217,7 @@ ol {
 .listText {
   font-size: 1.25em;
   text-align: justify;
+  font-weight: bold;
 }
 
 .aboutMeTable {
@@ -253,6 +254,14 @@ ol {
   font-size: 1em;
 }
 
+
+.indentedOl {
+  text-align: left;
+}
+
+.indentedUl {
+  text-align: left;
+}
 
 
 

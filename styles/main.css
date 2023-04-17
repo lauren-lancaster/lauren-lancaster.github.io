@@ -16,6 +16,13 @@ h2 {
   padding: 2%;
 }
 
+h3 {
+  font-size: 1.4em;
+  font-family: initial;
+  padding: 2%;
+  text-decoration: underline;
+}
+
 p {
   font-size: 1.2em;
   font-family: math;

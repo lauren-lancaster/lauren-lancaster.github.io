@@ -278,6 +278,7 @@ ol {
 
 .valuesImg {
   width: 80%;
+  max-width: 320px;
   margin-top: 10%;
   margin-left: 5%;
   border: 2px solid;
@@ -292,9 +293,6 @@ ol {
   align-content: flex-start;
 }
 
-.valuesGridItems {
-
-}
 
 
 
@@ -337,6 +335,17 @@ ol {
     padding-right: 0px;
     margin-left: 0px;
     margin-right: 0px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .valuesGrid {
+    display: block;
+  }
+  .valuesImg {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 50%;
   }
 }
 

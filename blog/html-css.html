@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
   </head>
-
   <body>
     <nav>
       <button class="navBtn" type="button" onclick="window.location.href='../index.html'">Home</button>
@@ -15,12 +14,12 @@
     </nav>
     <div class="mainBody">
       <div class="bodyText">
-        <h2>Best Practices Associated with Classes vs Ids</h2>
+        <h1 class="pageHeader">Best Practices Associated with Classes vs Ids</h2>
         <p>Classes and Ids are attributes used to apply interactivity or styling to a block, often defined by a div or span tag. While in function they are very similar, it’s very important to note that the application for each of them is different. As such, it’s important to learn the contexts in which they should be used, and how one may benefit over the other in certain scenarios.</p>
         <p>An important difference between ids and classes is that ids are specific to one single element and should only be used once on a page. A class on the other hand can be used for multiple elements and can be used as many times as necessary. You can even assign one element several classes. An easy analogy for this is to think of the id as a student id and the class as actual classes. A student id is specific to one student, and that student can only have one id. However that student could take multiple classes, and classes can have multiple students.</p>
-        <h3>Good Example!</h3>
+        <h2 class="contentHeader">Good Example!</h3>
         <img src="../images/idvsclass-goodexample.png" class="htmlCssImages" alt="good example of id and class use">
-        <h3>Bad Example!</h3>
+        <h2 class="contentHeader">Bad Example!</h3>
         <img src="../images/idvsclass-badexample.png" class="htmlCssImages" alt="bad example of id and class use">
         <p>One last thing that should be mentioned is that ids have higher priority in your code than classes. If an element has a class and an id assigned to it with conflicting instructions, the id will take precedence.</p>
         <p>So what are the best practices associated with using classes vs ids? In general I would argue that it’s best to use classes when you can. Classes are flexible, and if you find yourself wanting to use your class on an element later on in your coding journey, you can do this with no problems. Recurring blocks on your page, such as paragraphs, headers, and buttons, should always be assigned a class attribute. However if you had one element on your page that didn’t recur anywhere else and used a particular style or interactiveness, using an id would be suitable. </p>

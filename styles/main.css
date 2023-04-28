@@ -213,7 +213,7 @@ ol {
 .gridBody {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 20% 20%;
+  grid-template-rows: 20% 20% 20%;
   width: 85%;
   /* height: 80vh; */
   min-height: 600px;
